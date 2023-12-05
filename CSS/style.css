@@ -1,0 +1,124 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex-item{
+        text-align: center;
+    text-align: center;
+    padding: 5px;
+    color: aliceblue;
+    
+}
+
+.box5{
+    background-image: url(/images/hardware-and-software-computer-technology-background-isometric-elements-of-development-engineering-electronics-systems-and-devices-design-2GNTJK5.jpg);
+    color: rgb(255, 249, 249);
+    justify-content: space-between;
+    padding: 20px;
+    text-align: justify;
+}
+h2{
+    text-align: center;
+}
+.flex-con2{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+}
+
+@media (min-width: 360px){
+    .flex-con2{
+        display: flex;
+        background-color: white;
+        padding: 10px;
+        justify-content: space-between;
+        flex-direction: row;.flex-con {
+        display: flex;
+        background-color:dimgrey;
+        padding: 20px;
+        justify-content: space-around;
+        flex-direction: row;
+        text-align: center;
+        align-self: center;
+}
+}
+
+@media (min-width: 360px){
+    .flex-con {
+        display: flex;
+        background-color:dimgrey;
+        padding: 20px;
+        justify-content: space-around;
+        flex-direction: row;
+        text-align: center;
+        align-self: center;
+    
+    }
+    
+}
+
+@media (max-width:1000px){
+    .flex-con {
+        display: flex;
+        background-color:blue;
+        padding: 20px;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+        align-self: center;
+    
+    }
+
+}
+
+@media(max-width: 1000px){
+    .flex-con2{
+        display: flex;
+        background-color:skyblue;
+        padding: 10px;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.box6{
+    text-align: left;
+    color: black;
+    background-color: skyblue;
+    order: 1;
+    padding: 30px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    
+}
+.box7{
+    text-align: left;
+    background-color:skyblue;
+    color: black;
+    order: 2;
+    padding: 30px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;  
+}
+.box8{
+    text-align: left;
+    background-color: skyblue;
+    order: 3;
+    padding: 30px;
+    color:black;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+
+}
+
+footer {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    background-color: skyblue;
+  
+}
+
+
